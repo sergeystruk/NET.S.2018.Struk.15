@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "Collection\Collection.csproj", "{F064579A-71EB-49D9-9544-F960A8E9F8E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequence", "FibonacciSequence\FibonacciSequence.csproj", "{BA34520B-8CBD-430F-8360-F89BA001A503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequence.Tests", "FibonacciSequence.Tests\FibonacciSequence.Tests.csproj", "{4F94F22B-0F41-4BBA-807D-84913A1C8F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryAlgorithm", "BinaryAlgorithm\BinaryAlgorithm.csproj", "{F5D18FFC-CEF7-4C5B-BDC2-A499D5CAECC8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F064579A-71EB-49D9-9544-F960A8E9F8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F064579A-71EB-49D9-9544-F960A8E9F8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F064579A-71EB-49D9-9544-F960A8E9F8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F064579A-71EB-49D9-9544-F960A8E9F8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA34520B-8CBD-430F-8360-F89BA001A503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA34520B-8CBD-430F-8360-F89BA001A503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA34520B-8CBD-430F-8360-F89BA001A503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA34520B-8CBD-430F-8360-F89BA001A503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F94F22B-0F41-4BBA-807D-84913A1C8F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F94F22B-0F41-4BBA-807D-84913A1C8F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F94F22B-0F41-4BBA-807D-84913A1C8F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F94F22B-0F41-4BBA-807D-84913A1C8F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D18FFC-CEF7-4C5B-BDC2-A499D5CAECC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D18FFC-CEF7-4C5B-BDC2-A499D5CAECC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D18FFC-CEF7-4C5B-BDC2-A499D5CAECC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D18FFC-CEF7-4C5B-BDC2-A499D5CAECC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
